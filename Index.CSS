@@ -1,0 +1,105 @@
+.nav-links {
+    display: flex;
+    gap:20px;
+    font-size: 50px;
+    background-color: rgb(165, 42, 104);
+    align-items: center;
+}
+
+    .nav-logo img {
+        height: 120px;
+        width:300px;
+    }
+
+    .nav-link{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        margin-left: auto;
+    }
+
+    .hero{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        background-color: blue;
+        padding: 50px;
+        color: blanchedalmond;
+        flex-wrap: wrap;
+}
+
+.hero-image img {
+    width: 350px;
+    height: 350px;
+    margin-left: 20px;
+    border-radius: 50px;
+    border-color: brown;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+}
+
+.hero-image{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+    justify-content: center;
+}
+
+.aboutus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: aqua;
+    padding: 50px;
+    color: blue;
+}
+
+.aboutus-image{
+    width: 200px;
+    height: 200px;
+    margin-left: 30px;
+    align-content: center;
+    border-radius: 100px;
+    background-color: chocolate;
+    border-style: solid;
+    border-width: 10px;
+    padding: 5px;
+}
+.aboutus-image img{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+    justify-content: center;  
+}
+
+.aboutus-text{
+    width: 100%;
+}
+
+.aboutus-text h2{
+    font-size: 150px;
+}
+
+.aboutus-text p{
+    font-size: 100px;
+}
+
+.ourservices h2{
+    font-size: 100px;
+}
+
+.ourservices h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100;
+    padding: 40px;
+    flex-wrap: wrap;
+    color: chartreuse;
+}
