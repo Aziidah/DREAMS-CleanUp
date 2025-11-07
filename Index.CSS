@@ -31,8 +31,8 @@
 }
 
 .hero-image img {
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 400px;
     margin-left: 20px;
     border-radius: 50px;
     border-color: brown;
@@ -53,29 +53,31 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     gap: 50px;
     background-color: aqua;
     padding: 50px;
     color: blue;
 }
 
-.aboutus-image{
-    width: 200px;
-    height: 200px;
+.About{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.aboutus-imageimg img{
+    width: 350px;
+    height: 300px;
     margin-left: 30px;
     align-content: center;
-    border-radius: 100px;
     background-color: chocolate;
     border-style: solid;
     border-width: 10px;
     padding: 5px;
-}
-.aboutus-image img{
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    margin-top: 40px;
-    justify-content: center;  
+    border-radius: 15px;
+
 }
 
 .aboutus-text{
