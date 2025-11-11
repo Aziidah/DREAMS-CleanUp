@@ -7,8 +7,8 @@
 }
 
     .nav-logo img {
-        height: 120px;
-        width:300px;
+        height: 100px;
+        width:150px;
     }
 
     .nav-link{
@@ -31,14 +31,14 @@
 }
 
 .hero-image img {
-    width: 450px;
-    height: 400px;
+    width: 300px;
+    height: 200px;
     margin-left: 20px;
     border-radius: 50px;
     border-color: brown;
     border-style: solid;
-    border-width: 2px;
-    padding: 10px;
+    border-width: 1px;
+    padding: 5px;
 }
 
 .hero-image{
@@ -47,17 +47,19 @@
     gap: 30px;
     margin-top: 40px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .aboutus{
     display: flex;
-    align-items: center;
+    align-items:center ;
     justify-content: center;
     flex-direction: column;
     gap: 50px;
     background-color: aqua;
     padding: 50px;
     color: blue;
+    
 }
 
 .About{
@@ -65,11 +67,12 @@
     align-items: center;
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .aboutus-imageimg img{
-    width: 350px;
-    height: 300px;
+    width: 200px;
+    height: 100px;
     margin-left: 30px;
     align-content: center;
     background-color: chocolate;
@@ -77,19 +80,18 @@
     border-width: 10px;
     padding: 5px;
     border-radius: 15px;
+    flex-wrap: wrap;
 
 }
 
-.aboutus-text{
-    width: 100%;
-}
+.aboutus-text
 
 .aboutus-text h2{
-    font-size: 150px;
+    font-size: 50px;
 }
 
 .aboutus-text p{
-    font-size: 100px;
+    font-size: 50px;
 }
 
 .ourservices h2{
@@ -104,4 +106,71 @@
     padding: 40px;
     flex-wrap: wrap;
     color: chartreuse;
+}
+.nav-bar {
+    display: block;
+    margin-left: auto;
+}
+
+@media (min-width: 767px) {
+    .nav-bar {
+        display: none;
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 767px) {
+    .aboutus-imageimg img{
+    width:100% ;
+    height: auto;
+    border-radius: 0px;
+    margin: 0;
+    border: none;   
+ }
+
+
+.hero h1 {
+    font-size: 22px;
+}
+
+
+ .nav-link{
+    display: none;
+ }
+ .aboutus{
+    padding: 15px;
+ }
 }
